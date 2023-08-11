@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue"
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="avatar" class="logo" src="../public/avatar.jpg" width="250" height="350" />
 
     <div class="wrapper">
       <HelloWorld msg="이 건 화" />
@@ -28,6 +28,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  border-radius: 10px;
 }
 
 nav {

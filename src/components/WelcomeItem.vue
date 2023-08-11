@@ -8,6 +8,7 @@
         <slot name="heading"></slot>
       </h3>
     </div>
+    <slot></slot>
   </div>
 </template>
 
@@ -15,6 +16,7 @@
 .item {
   margin-top: 3rem;
   display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -42,6 +44,8 @@ h3 {
   .item {
     margin-top: 0;
     padding: 2rem 0 2rem calc(var(--section-gap) / 2);
+    display: flex;
+    justify-content: left;
   }
 
   i {
