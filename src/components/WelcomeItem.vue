@@ -25,7 +25,8 @@ i {
   place-items: center;
   place-content: center;
   width: 32px;
-  color: var(--color-text);
+  color: hsla(160, 100%, 37%, 1);
+;
 }
 
 .title {
@@ -42,8 +43,8 @@ h3 {
 
 @media (min-width: 1024px) {
   .item {
-    margin-top: 0;
-    padding: 2rem 0 2rem calc(var(--section-gap) / 2);
+    margin: 2rem 0;
+    padding: 1rem 0 1rem calc(var(--section-gap) / 2);
     display: flex;
     justify-content: left;
   }
@@ -58,31 +59,9 @@ h3 {
     width: 50px;
     height: 50px;
   }
+}
 
-  .item:before {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:after {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:first-of-type:before {
-    display: none;
-  }
-
-  .item:last-of-type:after {
-    display: none;
-  }
+.item:hover h3, .item:hover i {
+  color: rgb(27, 158, 228)
 }
 </style>

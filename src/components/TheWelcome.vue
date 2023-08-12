@@ -8,39 +8,36 @@ import PhoneIcon from "./icons/IconPhone.vue";
 </script>
 
 <template>
-  <WelcomeItem>
-    <template #icon>
-      <RouterLink to="/projects">
+  <RouterLink to="/projects">
+    <WelcomeItem>
+      <template #icon>
         <ProjectIcon />
-      </RouterLink>
-    </template>
-    <template #heading>Projects</template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <a href="https://github.com/gunhwalee" target="_blank">
+      </template>
+      <template #heading>Projects</template>
+    </WelcomeItem>
+  </RouterLink>
+  <a href="https://github.com/gunhwalee" target="_blank">
+    <WelcomeItem>
+      <template #icon>
         <GithubIcon />
-      </a>
-    </template>
-    <template #heading>Github</template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <a href="https://instinctive-bay-8e6.notion.site/Study-b4a75b3242d9490c8dc4ff77597c3454?pvs=4" target="_blank">
+      </template>
+      <template #heading>Github</template>
+    </WelcomeItem>
+  </a>
+  <a href="https://instinctive-bay-8e6.notion.site/Study-b4a75b3242d9490c8dc4ff77597c3454?pvs=4" target="_blank">
+    <WelcomeItem>
+      <template #icon>
         <NoteIcon />
-      </a>
-    </template>
-    <template #heading>Study Note</template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <RouterLink to="/contact">
+      </template>
+      <template #heading>Study Note</template>
+    </WelcomeItem>
+  </a>
+  <RouterLink to="/contact">
+    <WelcomeItem>
+      <template #icon>
         <PhoneIcon />
-      </RouterLink>
-    </template>
-    <template #heading>Contact</template>
-  </WelcomeItem>
+      </template>
+      <template #heading>Contact</template>
+    </WelcomeItem>
+  </RouterLink>
 </template>
