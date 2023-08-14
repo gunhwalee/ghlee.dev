@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld.vue"
 
 <template>
   <header>
-    <img alt="avatar" class="logo" src="../public/avatar.jpg" width="250" height="350" />
+    <img alt="avatar" class="logo" src="../public/avatar.jpg" width="250" height="350" decoding="async" />
 
     <div class="wrapper">
       <HelloWorld msg="이 건 화" />
