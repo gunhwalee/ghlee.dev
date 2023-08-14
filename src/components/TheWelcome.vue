@@ -5,6 +5,7 @@ import ProjectIcon from "./icons/IconProject.vue";
 import GithubIcon from "./icons/IconGithub.vue";
 import NoteIcon from "./icons/IconNote.vue";
 import PhoneIcon from "./icons/IconPhone.vue";
+import ResumeIcon from "./icons/IconResume.vue"
 </script>
 
 <template>
@@ -38,6 +39,14 @@ import PhoneIcon from "./icons/IconPhone.vue";
         <PhoneIcon />
       </template>
       <template #heading>Contact</template>
+    </WelcomeItem>
+  </RouterLink>
+  <RouterLink to="/resume">
+    <WelcomeItem>
+      <template #icon>
+        <ResumeIcon />
+      </template>
+      <template #heading>Resume</template>
     </WelcomeItem>
   </RouterLink>
 </template>
