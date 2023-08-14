@@ -19,7 +19,6 @@ defineProps<{
   font-size: 2.6rem;
   position: relative;
   top: -10px;
-  color: #f2f2f2;
 }
 
 h3 {

@@ -10,7 +10,6 @@
 
 <style scoped>
 .title {
-  color: #f2f2f2;
   text-align: center;
   margin-top: 3rem;
 }

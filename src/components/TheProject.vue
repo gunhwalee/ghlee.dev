@@ -9,7 +9,7 @@ import ProjectItem from "./ProjectItem.vue";
 
     <p class="description">Spy Cat은 사용자의 서버에서 발생한 트래픽과 에러 정보를 모니터링해주는 웹 애플리케이션입니다.</p>
     <nav>
-      <a href="">Github</a>
+      <a href="https://github.com/gunhwalee/spycat-client" target="_blank">Github</a>
     </nav>
   </ProjectItem>
 
@@ -18,14 +18,13 @@ import ProjectItem from "./ProjectItem.vue";
 
     <p class="description">Reactree는 React 프로젝트의 컴포넌트 계층구조를 트리 형태로 시각화해주는 Electron 기반의 데스크톱 앱 애플리케이션입니다.</p>
     <nav>
-      <a href="">Github</a>
+      <a href="https://github.com/Common-LKP/reactree-frontend" target="_blank">Github</a>
     </nav>
   </ProjectItem>
 </template>
 
 <style scoped>
 .title {
-  color: #f2f2f2;
   text-align: center;
   margin-top: 3rem;
 }

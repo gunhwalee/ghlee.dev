@@ -14,6 +14,10 @@ a {
   transition: 0.4s;
 }
 
+h1 {
+  color: var(--color-heading);
+}
+
 @media (hover: hover) {
   a:hover {
     color: rgb(27, 158, 228);
