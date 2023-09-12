@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <iframe src="../../public/resume.pdf#toolbar=0&navpanes=0&scrollbar=0" width="80%"></iframe>
+    <img src="../../public/resume.jpg" alt="resume" width="600" />
   </div>
 </template>
 
@@ -19,11 +19,11 @@ iframe {
 }
 
 @media (min-width: 1024px) {
-  .container{
+  .container {
     margin-top: 0;
   }
 
-  iframe{
+  iframe {
     width: 600px;
     height: 845px;
   }
